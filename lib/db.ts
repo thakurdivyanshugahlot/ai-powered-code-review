@@ -6,7 +6,7 @@ const globalForPrisma = globalThis as unknown as {
 }
 
 function createPrismaClient(){
-    const url = process.env.DATABADE_URL;
+    const url = process.env.DATABASE_URL;
 
     if(!url) throw new Error("DATABADE_URL is not set");
 

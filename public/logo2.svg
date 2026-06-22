@@ -1,0 +1,72 @@
+<svg width="600" height="300" viewBox="0 0 680 340" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>AI Code Reviewer Logo</title>
+  <desc>A logo featuring a stylized code bracket with a neural network and magnifying glass, representing AI-powered code review</desc>
+  <defs>
+    <style>
+      .bracket { fill: none; stroke: #4f8ef7; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .node-dot { fill: #a78bfa; }
+      .node-line { stroke: #a78bfa; stroke-width: 1.5; fill: none; opacity: 0.6; }
+      .magnify-ring { fill: none; stroke: #4f8ef7; stroke-width: 4; }
+      .magnify-handle { stroke: #4f8ef7; stroke-width: 5; stroke-linecap: round; }
+      .code-line-1 { fill: #4ade80; }
+      .code-line-2 { fill: #f87171; }
+      .code-line-3 { fill: #facc15; }
+      .logo-title { font-family: sans-serif; font-size: 36px; font-weight: 500; fill: #e2e8f0; }
+      .logo-sub { font-family: monospace; font-size: 14px; fill: #a78bfa; letter-spacing: 3px; }
+      .accent-dot { fill: #4f8ef7; }
+    </style>
+  </defs>
+
+  <!-- Dark card background -->
+  <rect x="40" y="20" width="600" height="300" rx="20" fill="#0f1117"/>
+  <rect x="40" y="20" width="600" height="300" rx="20" fill="none" stroke="#1e2130" stroke-width="1.5"/>
+
+  <!-- Code brackets -->
+  <path class="bracket" d="M118 100 L98 100 L98 170 L118 170"/>
+  <path class="bracket" d="M202 100 L222 100 L222 170 L202 170"/>
+
+  <!-- Code lines -->
+  <rect class="code-line-1" x="112" y="117" width="46" height="6" rx="3"/>
+  <rect class="code-line-2" x="112" y="131" width="32" height="6" rx="3"/>
+  <rect class="code-line-3" x="112" y="145" width="54" height="6" rx="3"/>
+  <rect x="112" y="159" width="22" height="6" rx="3" fill="#475569"/>
+
+  <!-- Neural network nodes -->
+  <circle class="node-dot" cx="175" cy="92" r="5"/>
+  <circle class="node-dot" cx="200" cy="108" r="5"/>
+  <circle class="node-dot" cx="175" cy="125" r="5"/>
+  <circle class="node-dot" cx="155" cy="108" r="4" opacity="0.7"/>
+  <circle class="node-dot" cx="195" cy="88" r="3.5" opacity="0.5"/>
+  <circle class="node-dot" cx="215" cy="120" r="4"/>
+  <line class="node-line" x1="175" y1="92" x2="200" y2="108"/>
+  <line class="node-line" x1="175" y1="92" x2="155" y2="108"/>
+  <line class="node-line" x1="175" y1="92" x2="175" y2="125"/>
+  <line class="node-line" x1="200" y1="108" x2="175" y2="125"/>
+  <line class="node-line" x1="155" y1="108" x2="175" y2="125"/>
+  <line class="node-line" x1="200" y1="108" x2="215" y2="120"/>
+  <line class="node-line" x1="195" y1="88" x2="200" y2="108"/>
+  <line class="node-line" x1="195" y1="88" x2="175" y2="92"/>
+
+  <!-- Magnifying glass with check -->
+  <circle class="magnify-ring" cx="237" cy="165" r="18"/>
+  <line class="magnify-handle" x1="251" y1="178" x2="265" y2="192"/>
+  <path d="M228 165 L234 172 L246 158" fill="none" stroke="#4ade80" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Decorative dots -->
+  <circle class="accent-dot" cx="90" cy="88" r="3" opacity="0.4"/>
+  <circle class="accent-dot" cx="90" cy="182" r="3" opacity="0.4"/>
+  <circle class="accent-dot" cx="270" cy="100" r="2.5" opacity="0.3"/>
+
+  <!-- Separator -->
+  <line x1="295" y1="80" x2="295" y2="230" stroke="#1e2130" stroke-width="1.5"/>
+
+  <!-- Text -->
+  <text x="322" y="148" class="logo-title">CodeReview</text>
+  <text x="324" y="178" class="logo-title" fill="#4f8ef7">AI</text>
+  <text x="324" y="205" class="logo-sub">POWERED BY INTELLIGENCE</text>
+  <rect x="324" y="185" width="38" height="3" rx="1.5" fill="#4f8ef7" opacity="0.7"/>
+
+  <!-- Bottom tagline -->
+  <line x1="80" y1="285" x2="600" y2="285" stroke="#1e2130" stroke-width="1"/>
+  <text x="340" y="308" font-family="monospace" font-size="11" fill="#334155" text-anchor="middle" letter-spacing="2">// smarter code. fewer bugs.</text>
+</svg>
